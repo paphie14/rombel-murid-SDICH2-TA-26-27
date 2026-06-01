@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>PENGUMUMAN KELAS 2026/2027</title>
+<title>DAFTAR ROMBEL MURID 2026/2027</title>
 
 <style>
 
@@ -59,11 +59,11 @@ body{
     margin-top:10px;
 }
 
-/* ===== LAYOUT 3 KOLOM ===== */
+/* ===== LAYOUT ===== */
 
 .content-wrapper{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     gap:20px;
 }
 
@@ -74,7 +74,7 @@ body{
     padding:18px;
 }
 
-/* ===== JUDUL KOLOM ===== */
+/* ===== SECTION TITLE ===== */
 
 .section-title{
     color:#ffffff;
@@ -85,7 +85,7 @@ body{
     font-weight:bold;
 }
 
-/* ===== LINK ===== */
+/* ===== KELAS ===== */
 
 .menu-link{
     display:block;
@@ -110,7 +110,7 @@ body{
     transform:translateX(3px);
 }
 
-/* ===== WA BUTTON ===== */
+/* ===== WA ===== */
 
 .wa-link{
     display:block;
@@ -136,7 +136,8 @@ body{
 /* ===== INFO ===== */
 
 .info-list{
-    padding-left:20px;
+    padding-left:22px;
+    margin:0;
 }
 
 .info-list li{
@@ -187,7 +188,7 @@ footer{
     <div class="header-box">
 
         <div class="main-title">
-            DAFTAR ROMBEL/KELAS MURID
+            DAFTAR ROMBEL / KELAS MURID
         </div>
 
         <div class="sub-title">
@@ -199,7 +200,7 @@ footer{
 
     <div class="content-wrapper">
 
-        <!-- KOLOM 1 -->
+        <!-- INFORMASI -->
 
         <div class="column-box">
 
@@ -207,17 +208,12 @@ footer{
                 📢 INFORMASI PENTING
             </div>
 
-            <ol class="info-list">
-                <li>Silakan cek pembagian kelas sesuai nama siswa.</li>
-                <li>Bergabunglah ke grup WhatsApp sesuai kelas.</li>
-                <li>Pembagian kelas telah ditetapkan oleh sekolah.</li>
-                <li>Hubungi Waka Kesiswaan apabila terdapat kendala.</li>
-                <li>Informasi lanjutan akan disampaikan melalui grup kelas.</li>
+            <ol class="info-list" id="info-container">
             </ol>
 
         </div>
 
-        <!-- KOLOM 2 -->
+        <!-- DAFTAR KELAS -->
 
         <div class="column-box">
 
@@ -225,36 +221,11 @@ footer{
                 📚 DAFTAR KELAS
             </div>
 
-            <a class="menu-link" href="#">KELAS 1A</a>
-            <a class="menu-link" href="#">KELAS 1B</a>
-            <a class="menu-link" href="#">KELAS 1C</a>
-            <a class="menu-link" href="#">KELAS 1D</a>
-
-            <a class="menu-link" href="#">KELAS 2A</a>
-            <a class="menu-link" href="#">KELAS 2B</a>
-            <a class="menu-link" href="#">KELAS 2C</a>
-            <a class="menu-link" href="#">KELAS 2D</a>
-
-            <a class="menu-link" href="#">KELAS 3A</a>
-            <a class="menu-link" href="#">KELAS 3B</a>
-            <a class="menu-link" href="#">KELAS 3C</a>
-
-            <a class="menu-link" href="#">KELAS 4A</a>
-            <a class="menu-link" href="#">KELAS 4B</a>
-            <a class="menu-link" href="#">KELAS 4C</a>
-
-            <a class="menu-link" href="#">KELAS 5A</a>
-            <a class="menu-link" href="#">KELAS 5B</a>
-            <a class="menu-link" href="#">KELAS 5C</a>
-
-            <a class="menu-link" href="#">KELAS 6A</a>
-            <a class="menu-link" href="#">KELAS 6B</a>
-            <a class="menu-link" href="#">KELAS 6C</a>
-
+            <div id="kelas-container"></div>
 
         </div>
 
-        <!-- KOLOM 3 -->
+        <!-- WHATSAPP -->
 
         <div class="column-box">
 
@@ -262,32 +233,7 @@ footer{
                 💬 GRUP WHATSAPP
             </div>
 
-            <a class="wa-link" href="#">Gabung WA Kelas 1A</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 1B</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 1C</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 1D</a>
-
-            <a class="wa-link" href="#">Gabung WA Kelas 2A</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 2B</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 2C</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 2D</a>
-
-            <a class="wa-link" href="#">Gabung WA Kelas 3A</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 3B</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 3C</a>
-
-            <a class="wa-link" href="#">Gabung WA Kelas 4A</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 4B</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 4C</a>
-
-            <a class="wa-link" href="#">Gabung WA Kelas 5A</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 5B</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 5C</a>
-
-            <a class="wa-link" href="#">Gabung WA Kelas 6A</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 6B</a>
-            <a class="wa-link" href="#">Gabung WA Kelas 6C</a>
-
+            <div id="wa-container"></div>
 
         </div>
 
@@ -300,6 +246,93 @@ footer{
 </div>
 
 </div>
+
+<script>
+
+/* =========================
+   LOAD INFORMASI
+========================= */
+
+fetch('info.json')
+.then(response => response.json())
+.then(data => {
+
+    const container =
+        document.getElementById('info-container');
+
+    data.forEach(item => {
+
+        const li =
+            document.createElement('li');
+
+        li.textContent = item;
+
+        container.appendChild(li);
+
+    });
+
+})
+.catch(error => console.error(error));
+
+
+/* =========================
+   LOAD KELAS
+========================= */
+
+fetch('kelas.json')
+.then(response => response.json())
+.then(data => {
+
+    const container =
+        document.getElementById('kelas-container');
+
+    data.forEach(item => {
+
+        const link =
+            document.createElement('a');
+
+        link.className = 'menu-link';
+        link.href = item.url;
+        link.target = '_blank';
+        link.textContent = item.nama;
+
+        container.appendChild(link);
+
+    });
+
+})
+.catch(error => console.error(error));
+
+
+/* =========================
+   LOAD WA
+========================= */
+
+fetch('wa.json')
+.then(response => response.json())
+.then(data => {
+
+    const container =
+        document.getElementById('wa-container');
+
+    data.forEach(item => {
+
+        const link =
+            document.createElement('a');
+
+        link.className = 'wa-link';
+        link.href = item.url;
+        link.target = '_blank';
+        link.textContent = item.nama;
+
+        container.appendChild(link);
+
+    });
+
+})
+.catch(error => console.error(error));
+
+</script>
 
 </body>
 </html>
